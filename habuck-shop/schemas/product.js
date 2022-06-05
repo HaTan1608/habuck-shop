@@ -35,7 +35,12 @@ export default {
       name: "details",
       title: "Details",
       type: "string",
-       of: ["detail"],
+         of: [
+        {
+          title: "detail",
+          type: 'string',
+        },
+      ],
     },
   ],
 };
