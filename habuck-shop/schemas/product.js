@@ -34,13 +34,8 @@ export default {
     {
       name: "details",
       title: "Details",
-      type: "string",
-         of: [
-        {
-          title: "detail",
-          type: 'string',
-        },
-      ],
+      type: "array",
+       of: [{ type: "string" }],
     },
   ],
 };
