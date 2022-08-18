@@ -20,7 +20,6 @@ const ProductDetails = ({ product, products }) => {
 
     setShowCart(true);
   };
-
   return (
     <div>
       <div className="product-detail-container">
@@ -58,7 +57,7 @@ const ProductDetails = ({ product, products }) => {
             <p>(20)</p>
           </div>
           <h4>Details: </h4>
-          <p>{details}</p>
+          <div dangerouslySetInnerHTML={{ __html: details }}></div>
           <p className="price">${price}</p>
           <div className="quantity">
             <h3>Quantity:</h3>

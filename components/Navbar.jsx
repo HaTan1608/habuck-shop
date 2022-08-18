@@ -9,10 +9,27 @@ const Navbar = () => {
 
   return (
     <div className="navbar-container">
-      <p className="logo">
-        <Link href="/">Habuck Shop</Link>
-      </p>
-
+      <div className="logo">
+        <Link href="/">
+          <img
+            src="/favicon.jpeg"
+            alt="logo"
+            style={{ height: "100%", objectFit: "contain" }}
+          />
+        </Link>
+      </div>
+      <div
+        style={{
+          height: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontWeight: "bold",
+          fontSize: "36px",
+        }}
+      >
+        Zebrucks
+      </div>
       <button
         type="button"
         className="cart-icon"
